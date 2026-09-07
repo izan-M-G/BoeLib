@@ -30,7 +30,7 @@ Añade el repositorio de JitPack y la dependencia:
 <dependency>
     <groupId>com.github.izanMG</groupId>
     <artifactId>boe-client</artifactId>
-    <version>v0.1.0</version>
+    <version>v0.1.1</version>
 </dependency>
 ```
 
@@ -42,7 +42,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.izanMG:boe-client:v0.1.0'
+    implementation 'com.github.izanMG:boe-client:v0.1.1'
 }
 ```
 
