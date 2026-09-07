@@ -1,0 +1,8 @@
+package io.github.izanMG.boe.internal.dto;
+
+import java.util.List;
+
+public record EpigrafeDto(
+        String nombre,
+        List<ItemDto> item
+) {}
