@@ -1,7 +1,6 @@
 
-import io.github.izanMG.boe.internal.http.*;
-import io.github.izanMG.boe.internal.http.BoeHttpClient;
-import io.github.izanMG.boe.BoeException;
+import io.github.izanmg.boe.internal.http.BoeHttpClient;
+import io.github.izanmg.boe.BoeException;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 import okhttp3.mockwebserver.RecordedRequest;

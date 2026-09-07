@@ -1,4 +1,4 @@
-package io.github.izanMG.boe.internal.json;
+package io.github.izanmg.boe.internal.json;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package io.github.izanMG.boe.internal.dto;
+package io.github.izanmg.boe.internal.dto;
 
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package io.github.izanMG.boe;
+package io.github.izanmg.boe;
 
 import java.util.Optional;
 

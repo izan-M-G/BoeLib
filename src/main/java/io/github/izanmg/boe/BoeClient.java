@@ -1,10 +1,10 @@
-package io.github.izanMG.boe;
+package io.github.izanmg.boe;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import io.github.izanMG.boe.internal.dto.RespuestaBoeDto;
-import io.github.izanMG.boe.internal.http.BoeHttpClient;
-import io.github.izanMG.boe.internal.json.JsonConfig;
-import io.github.izanMG.boe.internal.mapper.SumarioMapper;
+import io.github.izanmg.boe.internal.dto.RespuestaBoeDto;
+import io.github.izanmg.boe.internal.http.BoeHttpClient;
+import io.github.izanmg.boe.internal.json.JsonConfig;
+import io.github.izanmg.boe.internal.mapper.SumarioMapper;
 
 import java.time.Duration;
 import java.time.LocalDate;

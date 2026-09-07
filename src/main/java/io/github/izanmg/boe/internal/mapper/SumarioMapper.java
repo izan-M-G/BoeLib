@@ -1,15 +1,14 @@
-package io.github.izanMG.boe.internal.mapper;
+package io.github.izanmg.boe.internal.mapper;
 
-import io.github.izanMG.boe.Diario;
-import io.github.izanMG.boe.Disposicion;
-import io.github.izanMG.boe.Seccion;
-import io.github.izanMG.boe.Sumario;
-import io.github.izanMG.boe.internal.dto.*;
+import io.github.izanmg.boe.Diario;
+import io.github.izanmg.boe.Disposicion;
+import io.github.izanmg.boe.Seccion;
+import io.github.izanmg.boe.Sumario;
+import io.github.izanmg.boe.internal.dto.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 

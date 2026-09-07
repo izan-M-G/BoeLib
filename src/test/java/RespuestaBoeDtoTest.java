@@ -1,6 +1,6 @@
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.izanMG.boe.internal.dto.RespuestaBoeDto;
+import io.github.izanmg.boe.internal.dto.RespuestaBoeDto;
 import org.junit.Test;
 
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package io.github.izanMG.boe;
+package io.github.izanmg.boe;
 
 import java.time.LocalDate;
 import java.util.List;

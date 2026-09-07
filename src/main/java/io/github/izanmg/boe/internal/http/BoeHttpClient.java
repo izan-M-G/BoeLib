@@ -1,6 +1,6 @@
-package io.github.izanMG.boe.internal.http;
+package io.github.izanmg.boe.internal.http;
 
-import io.github.izanMG.boe.BoeException;
+import io.github.izanmg.boe.BoeException;
 
 import java.io.IOException;
 import java.net.URI;

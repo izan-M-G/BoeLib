@@ -1,12 +1,11 @@
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.izanMG.boe.Diario;
-import io.github.izanMG.boe.Disposicion;
-import io.github.izanMG.boe.Seccion;
-import io.github.izanMG.boe.Sumario;
-import io.github.izanMG.boe.internal.dto.RespuestaBoeDto;
-import io.github.izanMG.boe.internal.json.JsonConfig;
-import io.github.izanMG.boe.internal.mapper.SumarioMapper;
+import io.github.izanmg.boe.Disposicion;
+import io.github.izanmg.boe.Seccion;
+import io.github.izanmg.boe.Sumario;
+import io.github.izanmg.boe.internal.dto.RespuestaBoeDto;
+import io.github.izanmg.boe.internal.json.JsonConfig;
+import io.github.izanmg.boe.internal.mapper.SumarioMapper;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
