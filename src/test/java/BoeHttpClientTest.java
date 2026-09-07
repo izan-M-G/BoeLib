@@ -1,6 +1,6 @@
 
 import io.github.izanMG.boe.internal.http.*;
-import io.github.izanmg.boe.internal.http.BoeHttpClient;
+import io.github.izanMG.boe.internal.http.BoeHttpClient;
 import io.github.izanMG.boe.BoeException;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
@@ -29,7 +29,7 @@ class BoeHttpClientTest {
         servidor = new MockWebServer();
         servidor.start();
         cliente = new BoeHttpClient(
-                servidor.url("/").toString(), Duration.ofSeconds(5));
+                servidor.url("/").toString(), Duration.ofSeconds(5),5);
     }
 
     @AfterEach
@@ -61,14 +61,13 @@ class BoeHttpClientTest {
     }
 
     @Test
-    @DisplayName("Un 500 lanza BoeException con el codigo en el mensaje")
-    void respuesta500() {
+    @DisplayName("Se recupera si el BOE vuelve en el segundo intento")
+    void reintentaYSeRecupera() {
         servidor.enqueue(new MockResponse().setResponseCode(500));
+        servidor.enqueue(new MockResponse().setResponseCode(200).setBody("{}"));
 
-        BoeException e = assertThrows(BoeException.class,
-                () -> cliente.descargarSumario(FECHA));
-
-        assertTrue(e.getMessage().contains("500"));
+        assertTrue(cliente.descargarSumario(FECHA).isPresent());
+        assertEquals(2, servidor.getRequestCount());
     }
 
     @Test

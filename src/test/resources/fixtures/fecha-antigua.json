@@ -1,0 +1,588 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BOE",
+                "fecha_publicacion": "19900102"
+            },
+            "diario": [
+                {
+                    "numero": "2",
+                    "sumario_diario": {
+                        "identificador": "BOE-S-1990-2",
+                        "url_pdf": {
+                            "szBytes": "130071",
+                            "szKBytes": "127",
+                            "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/BOE-S-1990-2.pdf"
+                        }
+                    },
+                    "seccion": [
+                        {
+                            "codigo": "1",
+                            "nombre": "I. Disposiciones generales",
+                            "departamento": [
+                                {
+                                    "codigo": "1820",
+                                    "nombre": "CONSEJO GENERAL DEL PODER JUDICIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Juzgados de Instrucci\u00f3n",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-35",
+                                                "titulo": "Acuerdo de 28 de diciembre de 1989, del Pleno del Consejo General del Poder Judicial, por el que se dispone la transformaci\u00f3n de los actuales Juzgados de Vigilancia Penitenciaria de Zaragoza, Palma de Mallorca y Valladolid, en Juzgados de Instrucci\u00f3n.",
+                                                "url_pdf": {
+                                                    "szBytes": "62968",
+                                                    "szKBytes": "61",
+                                                    "pagina_inicial": "36",
+                                                    "pagina_final": "36",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00036-00036.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-35",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-35"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5130",
+                                    "nombre": "MINISTERIO DE ECONOM\u00cdA Y HACIENDA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Veh\u00edculos autom\u00f3viles. Autoliquidaci\u00f3n de Impuestos",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-36",
+                                                "titulo": "Orden de 28 de diciembre de 1989 por la que se aprueban los precios medios de venta aplicables en la gesti\u00f3n de los Impuestos sobre Transmisiones Patrimoniales y Actos Jur\u00eddicos Documentados y sobre Sucesiones y Donaciones.",
+                                                "url_pdf": {
+                                                    "szBytes": "735084",
+                                                    "szKBytes": "718",
+                                                    "pagina_inicial": "36",
+                                                    "pagina_final": "52",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00036-00052.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-36",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-36"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2A",
+                            "nombre": "II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",
+                            "departamento": [
+                                {
+                                    "codigo": "1820",
+                                    "nombre": "CONSEJO GENERAL DEL PODER JUDICIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Designaciones",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-37",
+                                                "titulo": "Acuerdo de 28 de diciembre de 1989, del Pleno del Consejo General del Poder Judicial, por el que se designan los Magistrados del Tribunal Supremo que integrar\u00e1n la Sala de Conflictos de Jurisdicci\u00f3n en el a\u00f1o 1990.",
+                                                "url_pdf": {
+                                                    "szBytes": "84622",
+                                                    "szKBytes": "83",
+                                                    "pagina_inicial": "53",
+                                                    "pagina_final": "53",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00053-00053.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-37",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-37"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-38",
+                                                "titulo": "Acuerdo de 14 de diciembre de 1989, de la Comisi\u00f3n Permanente del Consejo General del Poder Judicial, por el que se nombra a do\u00f1a Teresa Mart\u00ednez Cort\u00e9s Juez sustituta de los Juzgados de Pamplona, por el tr\u00e1mite de urgencia y para el a\u00f1o judicial 1989-1990.",
+                                                "url_pdf": {
+                                                    "szBytes": "84622",
+                                                    "szKBytes": "83",
+                                                    "pagina_inicial": "53",
+                                                    "pagina_final": "53",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00053-00053.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-38",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-38"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7230",
+                                    "nombre": "MINISTERIO PARA LAS ADMINISTRACIONES P\u00daBLICAS",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-39",
+                                                "titulo": "Correcci\u00f3n de errores de la Resoluci\u00f3n de 28 de septiembre de 1989, de la Secretar\u00eda de Estado para la Administraci\u00f3n P\u00fablica, por la que se nombran funcionarios de carrera del Cuerpo de Gesti\u00f3n de la Administraci\u00f3n de la Seguridad Social.",
+                                                "url_pdf": {
+                                                    "szBytes": "84622",
+                                                    "szKBytes": "83",
+                                                    "pagina_inicial": "53",
+                                                    "pagina_final": "53",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00053-00053.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-39",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-39"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9525",
+                                    "nombre": "ADMINISTRACI\u00d3N LOCAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-1990-40",
+                                                    "titulo": "Resoluci\u00f3n de 20 de noviembre de 1989, de la Diputaci\u00f3n Provincial de Huelva, por la que se hace p\u00fablico el nombramiento de un Auxiliar de Laboratorio Conductor.",
+                                                    "url_pdf": {
+                                                        "szBytes": "84622",
+                                                        "szKBytes": "83",
+                                                        "pagina_inicial": "53",
+                                                        "pagina_final": "53",
+                                                        "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00053-00053.pdf"
+                                                    },
+                                                    "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-40",
+                                                    "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-40"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-1990-41",
+                                                    "titulo": "Resoluci\u00f3n de 20 de noviembre de 1989, de la Diputaci\u00f3n Provincial de Huelva, por la que se hace p\u00fablico el nombramiento de un Auxiliar Polideportivo.",
+                                                    "url_pdf": {
+                                                        "szBytes": "84622",
+                                                        "szKBytes": "83",
+                                                        "pagina_inicial": "53",
+                                                        "pagina_final": "53",
+                                                        "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00053-00053.pdf"
+                                                    },
+                                                    "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-41",
+                                                    "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-41"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-1990-42",
+                                                    "titulo": "Resoluci\u00f3n de 20 de noviembre de 1989, de la Diputaci\u00f3n Provincial de Huelva, por la que se hace p\u00fablico el nombramiento de una Trabajadora Social.",
+                                                    "url_pdf": {
+                                                        "szBytes": "84622",
+                                                        "szKBytes": "83",
+                                                        "pagina_inicial": "53",
+                                                        "pagina_final": "53",
+                                                        "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00053-00053.pdf"
+                                                    },
+                                                    "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-42",
+                                                    "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-42"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2B",
+                            "nombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+                            "departamento": [
+                                {
+                                    "codigo": "1220",
+                                    "nombre": "CORTES GENERALES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpo de Ujieres de las Cortes Generales",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-49914",
+                                                "titulo": "Acuerdo de 12 de diciembre de 1989, del Tribunal que juzga el concurso-oposici\u00f3n para la provisi\u00f3n de 40 plazas del Cuerpo de Ujieres de las Cortes Generales, por el que se hace p\u00fablica la Resoluci\u00f3n definitiva de la fase de concurso de m\u00e9ritos, con indicaci\u00f3n de las puntuaciones obtenidas en la misma. (Continuaci\u00f3n.)",
+                                                "url_pdf": {
+                                                    "szBytes": "151364",
+                                                    "szKBytes": "148",
+                                                    "pagina_inicial": "54",
+                                                    "pagina_final": "55",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00054-00055.pdf"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1820",
+                                    "nombre": "CONSEJO GENERAL DEL PODER JUDICIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Carrera Judicial",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-43",
+                                                "titulo": "Acuerdo de 28 de diciembre de 1989, del Pleno del Consejo General del Poder Judicial, por el que se convoca concurso de m\u00e9ritos para la provisi\u00f3n de dos plazas de Inspectores-Delegados, en el Servicio de Inspecci\u00f3n del Consejo General del Poder Judicial.",
+                                                "url_pdf": {
+                                                    "szBytes": "80798",
+                                                    "szKBytes": "79",
+                                                    "pagina_inicial": "55",
+                                                    "pagina_final": "55",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00055-00055.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-43",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-43"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5130",
+                                    "nombre": "MINISTERIO DE ECONOM\u00cdA Y HACIENDA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal laboral",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-44",
+                                                "titulo": "Resoluci\u00f3n de 27 de diciembre de 1989, de la Subsecretar\u00eda, por la que se hace p\u00fablica la lista de admitidos y excluidos y se se\u00f1ala d\u00eda, lugar y hora de celebraci\u00f3n de las pruebas selectivas para la provisi\u00f3n de una plaza de personal laboral con la categor\u00eda de Jefe de Area de Sistemas A (F\/C) en el Ministerio de Econom\u00eda y Hacienda (Direcci\u00f3n General de Inform\u00e1tica Tributaria) (18\/89).",
+                                                "url_pdf": {
+                                                    "szBytes": "80798",
+                                                    "szKBytes": "79",
+                                                    "pagina_inicial": "55",
+                                                    "pagina_final": "55",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00055-00055.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-44",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-44"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal laboral",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-45",
+                                                "titulo": "Resoluci\u00f3n de 20 de diciembre de 1989, de la Direcci\u00f3n General de Servicios, por la que se hace p\u00fablica la relaci\u00f3n de aspirantes aprobados en las pruebas selectivas para cubrir vacantes de personal de oficios en r\u00e9gimen laboral convocadas por Resoluci\u00f3n de 21 de marzo de 1989 (\u00abBolet\u00edn Oficial del Estado\u00bb del 30).",
+                                                "url_pdf": {
+                                                    "szBytes": "69432",
+                                                    "szKBytes": "68",
+                                                    "pagina_inicial": "56",
+                                                    "pagina_final": "56",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00056-00056.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-45",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-45"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4230",
+                                    "nombre": "MINISTERIO DE EDUCACI\u00d3N Y CIENCIA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpo de Inspectores al Servicio de la Administraci\u00f3n Educativa",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-46",
+                                                "titulo": "Resoluci\u00f3n de 21 de diciembre de 1989, de la Direcci\u00f3n General de Personal y Servicios, por la que se hace p\u00fablica la fecha del sorteo para designar a los Vocales de la Comisi\u00f3n de Valoraci\u00f3n del concurso para provisi\u00f3n de puestos de funci\u00f3n inspectora educativa.",
+                                                "url_pdf": {
+                                                    "szBytes": "69432",
+                                                    "szKBytes": "68",
+                                                    "pagina_inicial": "56",
+                                                    "pagina_final": "56",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00056-00056.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-46",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-46"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpos Docentes Universitarios",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-47",
+                                                "titulo": "Resoluci\u00f3n de 20 de diciembre de 1989, de la Universidad de Murcia, por la que se modifica la de 1 de diciembre de 1989, que convoca a concurso plazas de Cuerpos Docentes Universitarios.",
+                                                "url_pdf": {
+                                                    "szBytes": "69432",
+                                                    "szKBytes": "68",
+                                                    "pagina_inicial": "56",
+                                                    "pagina_final": "56",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00056-00056.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-47",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-47"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9525",
+                                    "nombre": "ADMINISTRACI\u00d3N LOCAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal Funcionario y Laboral",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-1990-48",
+                                                    "titulo": "Resoluci\u00f3n de 20 de noviembre de 1989, del Ayuntamiento de Castellar de la Frontera (C\u00e1diz), por la que se anuncia la oferta p\u00fablica de empleo para a\u00f1o 1989.",
+                                                    "url_pdf": {
+                                                        "szBytes": "78724",
+                                                        "szKBytes": "77",
+                                                        "pagina_inicial": "57",
+                                                        "pagina_final": "57",
+                                                        "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00057-00057.pdf"
+                                                    },
+                                                    "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-48",
+                                                    "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-48"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-1990-49",
+                                                    "titulo": "Resoluci\u00f3n de 20 de noviembre de 1989, del Ayuntamiento de Medina del Campo (Valladolid), por la que se anuncia la oferta p\u00fablica de empleo para a\u00f1o 1989.",
+                                                    "url_pdf": {
+                                                        "szBytes": "78724",
+                                                        "szKBytes": "77",
+                                                        "pagina_inicial": "57",
+                                                        "pagina_final": "57",
+                                                        "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00057-00057.pdf"
+                                                    },
+                                                    "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-49",
+                                                    "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-49"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-1990-50",
+                                                    "titulo": "Resoluci\u00f3n de 28 de noviembre de 1989, del Ayuntamiento de Leiro (Orense), por la que se ampl\u00eda la oferta p\u00fablica de empleo para a\u00f1o 1989.",
+                                                    "url_pdf": {
+                                                        "szBytes": "78724",
+                                                        "szKBytes": "77",
+                                                        "pagina_inicial": "57",
+                                                        "pagina_final": "57",
+                                                        "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00057-00057.pdf"
+                                                    },
+                                                    "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-50",
+                                                    "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-50"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-1990-51",
+                                                    "titulo": "Resoluci\u00f3n de 22 de diciembre de 1989, del Ayuntamiento de Madrid, por la que se publica la lista provisional de aspirantes excluidos, y se se\u00f1ala la fecha de celebraci\u00f3n del primer ejercicio de las pruebas selectivs convocadas para proveer 48 plazas de Licenciados en Medicina.",
+                                                    "url_pdf": {
+                                                        "szBytes": "78724",
+                                                        "szKBytes": "77",
+                                                        "pagina_inicial": "57",
+                                                        "pagina_final": "57",
+                                                        "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00057-00057.pdf"
+                                                    },
+                                                    "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-51",
+                                                    "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-51"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "3",
+                            "nombre": "III. Otras disposiciones",
+                            "departamento": [
+                                {
+                                    "codigo": "4810",
+                                    "nombre": "MINISTERIO DE JUSTICIA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Dep\u00f3sitos y Consignaciones judiciales",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-52",
+                                                "titulo": "Correcci\u00f3n de errores de la Instrucci\u00f3n de 30 de noviembre de 1989, de la Subsecretar\u00eda, sobre Cuentas de Dep\u00f3sitos y Consignaciones.",
+                                                "url_pdf": {
+                                                    "szBytes": "81042",
+                                                    "szKBytes": "79",
+                                                    "pagina_inicial": "58",
+                                                    "pagina_final": "58",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00058-00058.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-52",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-52"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5130",
+                                    "nombre": "MINISTERIO DE ECONOM\u00cdA Y HACIENDA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Sentencias",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-53",
+                                                "titulo": "Orden de 15 de diciembre de 1989 por la que se dispone el cumplimiento de la sentencia del Tribunal Supremo dictada con fecha 6 de octubre de 1989 en el recurso contencioso-administrativo n\u00famero 307.063 interpuesto contra Real Decreto 2621\/1983, por el Gobierno Vasco.",
+                                                "url_pdf": {
+                                                    "szBytes": "81042",
+                                                    "szKBytes": "79",
+                                                    "pagina_inicial": "58",
+                                                    "pagina_final": "58",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00058-00058.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-53",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-53"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Sistema Nacional de Compensaci\u00f3n Electr\u00f3nica",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-54",
+                                                "titulo": "Correcci\u00f3n de errores de la Resoluci\u00f3n de 13 de noviembre de 1989, de la Secretar\u00eda de Estado de Econom\u00eda, por la que se hacen p\u00fablicas las Entidades dadas de alta en el Registro de Miembros del Sistema Nacional de Compensaci\u00f3n Electr\u00f3nica.",
+                                                "url_pdf": {
+                                                    "szBytes": "81042",
+                                                    "szKBytes": "79",
+                                                    "pagina_inicial": "58",
+                                                    "pagina_final": "58",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00058-00058.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-54",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-54"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5260",
+                                    "nombre": "MINISTERIO DE INDUSTRIA Y ENERG\u00cdA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Homologaciones",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-55",
+                                                "titulo": "Resoluci\u00f3n de 13 de noviembre de 1989, de la Direcci\u00f3n General de Industria, por la que se modifica la de 20 de junio de 1988, que homologa frigor\u00edfico de circulaci\u00f3n forzada de aire, marca \u00abGeneral Electric\u00bb y variantes, fabricado por \u00abGeneral Electric, Co.\u00bb.",
+                                                "url_pdf": {
+                                                    "szBytes": "81042",
+                                                    "szKBytes": "79",
+                                                    "pagina_inicial": "58",
+                                                    "pagina_final": "58",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00058-00058.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-55",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-55"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Zonas de urgente reindustrializaci\u00f3n",
+                                            "item": {
+                                                "identificador": "BOE-A-1990-56",
+                                                "titulo": "Correcci\u00f3n de errores de la Orden de 27 de enero de 1986, por la que se aceptan solicitudes de concesi\u00f3n de beneficios a Empresas que se instalen en las zonas de urgente reindustrializaci\u00f3n de Asturias, Bah\u00eda de C\u00e1diz, Madrid, Nervi\u00f3n y Vigo-El Ferrol.",
+                                                "url_pdf": {
+                                                    "szBytes": "81042",
+                                                    "szKBytes": "79",
+                                                    "pagina_inicial": "58",
+                                                    "pagina_final": "58",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00058-00058.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-1990-56",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-1990-56"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "4",
+                            "nombre": "IV. Administraci\u00f3n de Justicia",
+                            "departamento": {
+                                "codigo": "",
+                                "nombre": "",
+                                "texto": {
+                                    "item": {
+                                        "identificador": "BOE-B-1990-31002",
+                                        "titulo": "Anuncios de Audiencias, Tribunales, Juzgados y Requisitorias",
+                                        "url_pdf": {
+                                            "szBytes": "306637",
+                                            "szKBytes": "299",
+                                            "pagina_inicial": "59",
+                                            "pagina_final": "61",
+                                            "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00059-00061.pdf"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "codigo": "5A",
+                            "nombre": "V. Anuncios. - A. Subastas y concursos de obras y servicios",
+                            "departamento": {
+                                "codigo": "",
+                                "nombre": "",
+                                "texto": {
+                                    "item": {
+                                        "identificador": "BOE-B-1990-30002",
+                                        "titulo": "Subastas y concursos de obras y servicios",
+                                        "url_pdf": {
+                                            "szBytes": "96136",
+                                            "szKBytes": "94",
+                                            "pagina_inicial": "62",
+                                            "pagina_final": "62",
+                                            "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00062-00062.pdf"
+                                        },
+                                        "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-B-1990-30002",
+                                        "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-B-1990-30002"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "codigo": "5B",
+                            "nombre": "V. Anuncios. - B. Otros anuncios oficiales",
+                            "departamento": {
+                                "codigo": "",
+                                "nombre": "",
+                                "texto": {
+                                    "item": {
+                                        "identificador": "BOE-B-1990-30315",
+                                        "titulo": "Otros anuncios oficiales",
+                                        "url_pdf": {
+                                            "szBytes": "85586",
+                                            "szKBytes": "84",
+                                            "pagina_inicial": "63",
+                                            "pagina_final": "63",
+                                            "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00063-00063.pdf"
+                                        },
+                                        "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-B-1990-30315",
+                                        "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-B-1990-30315"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "codigo": "5C",
+                            "nombre": "V. Anuncios. - C. Anuncios particulares",
+                            "departamento": {
+                                "codigo": "",
+                                "nombre": "",
+                                "texto": {
+                                    "item": {
+                                        "identificador": "BOE-B-1990-30628",
+                                        "titulo": "Anuncios particulares",
+                                        "url_pdf": {
+                                            "szBytes": "77347",
+                                            "szKBytes": "76",
+                                            "pagina_inicial": "64",
+                                            "pagina_final": "64",
+                                            "texto": "https:\/\/www.boe.es\/boe\/dias\/1990\/01\/02\/pdfs\/A00064-00064.pdf"
+                                        },
+                                        "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-B-1990-30628",
+                                        "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-B-1990-30628"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

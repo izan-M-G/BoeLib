@@ -1,0 +1,58 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BOE",
+                "fecha_publicacion": "20200329"
+            },
+            "diario": [
+                {
+                    "numero": "87",
+                    "sumario_diario": {
+                        "identificador": "BOE-S-2020-87",
+                        "url_pdf": {
+                            "szBytes": "164126",
+                            "szKBytes": "160",
+                            "texto": "https:\/\/www.boe.es\/boe\/dias\/2020\/03\/29\/pdfs\/BOE-S-2020-87.pdf"
+                        }
+                    },
+                    "seccion": {
+                        "codigo": "1",
+                        "nombre": "I. Disposiciones generales",
+                        "texto": {
+                            "departamento": {
+                                "codigo": "7723",
+                                "nombre": "JEFATURA DEL ESTADO",
+                                "texto": {
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Estado de alarma. Medidas urgentes",
+                                            "item": {
+                                                "identificador": "BOE-A-2020-4166",
+                                                "control": "2020\/4174",
+                                                "titulo": "Real Decreto-ley 10\/2020, de 29 de marzo, por el que se regula un permiso retribuido recuperable para las personas trabajadoras por cuenta ajena que no presten servicios esenciales, con el fin de reducir la movilidad de la poblaci\u00f3n en el contexto de la lucha contra el COVID-19.",
+                                                "url_pdf": {
+                                                    "szBytes": "268097",
+                                                    "szKBytes": "262",
+                                                    "pagina_inicial": "27629",
+                                                    "pagina_final": "27636",
+                                                    "texto": "https:\/\/www.boe.es\/boe\/dias\/2020\/03\/29\/pdfs\/BOE-A-2020-4166.pdf"
+                                                },
+                                                "url_html": "https:\/\/www.boe.es\/diario_boe\/txt.php?id=BOE-A-2020-4166",
+                                                "url_xml": "https:\/\/www.boe.es\/diario_boe\/xml.php?id=BOE-A-2020-4166"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

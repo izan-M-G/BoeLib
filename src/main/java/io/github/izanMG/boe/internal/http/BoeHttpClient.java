@@ -1,4 +1,4 @@
-package io.github.izanmg.boe.internal.http;
+package io.github.izanMG.boe.internal.http;
 
 import io.github.izanMG.boe.BoeException;
 
@@ -17,13 +17,17 @@ public final class BoeHttpClient {
     private static final DateTimeFormatter FORMATO_FECHA =
             DateTimeFormatter.ofPattern("yyyyMMdd");
 
+    private static final long ESPERA_BASE_MS = 500;
+
     private final HttpClient httpClient;
     private final String urlBase;
     private final Duration timeout;
+    private final int reintentos;
 
-    public BoeHttpClient(String urlBase, Duration timeout) {
+    public BoeHttpClient(String urlBase, Duration timeout, int reintentos) {
         this.urlBase = normalizar(urlBase);
         this.timeout = timeout;
+        this.reintentos = reintentos;
         this.httpClient = HttpClient.newBuilder()
                 .connectTimeout(Duration.ofSeconds(10))
                 .build();
@@ -33,7 +37,7 @@ public final class BoeHttpClient {
      * Descarga el sumario de una fecha.
      *
      * @return el JSON en crudo, o vacio si ese dia no hubo boletin (404).
-     * @throws BoeException si la peticion falla por cualquier otro motivo.
+     * @throws BoeException si falla la red o el BOE devuelve un error.
      */
     public Optional<String> descargarSumario(LocalDate fecha) {
 
@@ -44,40 +48,69 @@ public final class BoeHttpClient {
                 .GET()
                 .build();
 
-        HttpResponse<String> response = enviar(request, fecha);
+        IOException ultimoFalloDeRed = null;
+        int ultimoCodigo = 0;
 
-        int codigo = response.statusCode();
+        for (int intento = 0; intento <= reintentos; intento++) {
 
-        if (codigo == 200) {
-            return Optional.of(response.body());
+            if (intento > 0) {
+                esperar(intento);
+            }
+
+            HttpResponse<String> response;
+            try {
+                response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+
+            } catch (IOException e) {
+                ultimoFalloDeRed = e;
+                continue;
+
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                throw new BoeException("Consulta al BOE interrumpida", e);
+            }
+
+            int codigo = response.statusCode();
+
+            if (codigo == 200) {
+                return Optional.of(response.body());
+            }
+
+            if (codigo == 404) {
+                return Optional.empty();
+            }
+
+            if (codigo >= 500) {
+                ultimoCodigo = codigo;
+                ultimoFalloDeRed = null;
+                continue;
+            }
+
+            // 4xx: la peticion es incorrecta, reintentar no cambiaria nada
+            throw new BoeException(
+                    "La API del BOE respondio " + codigo + " para la fecha " + fecha);
         }
 
-        if (codigo == 404) {
-            return Optional.empty();
-        }
+        String motivo = ultimoFalloDeRed != null
+                ? "fallo de red"
+                : "el BOE respondio " + ultimoCodigo;
 
         throw new BoeException(
-                "La API del BOE respondio " + codigo + " para la fecha " + fecha);
+                "No se pudo consultar el BOE del " + fecha + " tras "
+                        + (reintentos + 1) + " intentos: " + motivo,
+                ultimoFalloDeRed);
     }
 
-    private HttpResponse<String> enviar(HttpRequest request, LocalDate fecha) {
+    /** Espera creciente: 500 ms, 1 s, 2 s... para no machacar un servidor caido. */
+    private void esperar(int intento) {
         try {
-            return httpClient.send(request, HttpResponse.BodyHandlers.ofString());
-
-        } catch (IOException e) {
-            throw new BoeException("Fallo de red consultando el BOE del " + fecha, e);
-
+            Thread.sleep(ESPERA_BASE_MS * (long) Math.pow(2, intento - 1));
         } catch (InterruptedException e) {
-            // restaurar el flag para no tragarse la interrupcion del hilo
             Thread.currentThread().interrupt();
-            throw new BoeException("Consulta interrumpida", e);
+            throw new BoeException("Espera entre reintentos interrumpida", e);
         }
     }
 
-    /**
-     * MockWebServer devuelve la url base con barra final y el BOE no la lleva.
-     * Sin esto saldrian rutas con doble barra.
-     */
     private static String normalizar(String url) {
         return url.endsWith("/") ? url.substring(0, url.length() - 1) : url;
     }
