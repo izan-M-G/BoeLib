@@ -37,7 +37,7 @@ class BoeClientTest {
     }
 
     private String fixture() throws IOException {
-        try (var is = getClass().getResourceAsStream("/fixtures/sumario-20260902.json")) {
+        try (var is = getClass().getResourceAsStream("/fixtures/dos-diarios.json")) {
             assertNotNull(is, "No se encuentra el fixture");
             return new String(is.readAllBytes(), StandardCharsets.UTF_8);
         }

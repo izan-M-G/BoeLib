@@ -27,7 +27,7 @@ class SumarioMapperTest {
         mapper.configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true);
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
-        InputStream is = getClass().getResourceAsStream("/fixtures/HappyPath.json");
+        InputStream is = getClass().getResourceAsStream("/fixtures/dos-diarios.json");
         respuesta = mapper.readValue(is, RespuestaBoeDto.class);
     }
 
