@@ -1,7 +1,6 @@
 # boe-client
 
-[![Build](https://github.com/izanMG/boe-client/actions/workflows/build.yml/badge.svg)](https://github.com/izanMG/boe-client/actions/workflows/build.yml)
-[![](https://jitpack.io/v/izanMG/boe-client.svg)](https://jitpack.io/#izanMG/boe-client)
+[![](https://jitpack.io/v/izan-M-G/BoeLib.svg)](https://jitpack.io/#izan-M-G/BoeLib)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Cliente Java para la API de datos abiertos del BOE.
